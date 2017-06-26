@@ -169,9 +169,9 @@ Version 0.75 created 21/06/17
 * Never released a bit bogus in the code (to much if and then)
 
 version 0.85 created 21/17/17
-* Nicer selections via case values
-* Gives output to the user happened
-  FAV file deleted
-  FAV file created
-  FAV file already there - do nothing! 
+* Nicer source code via select case values
 * Rewritten for RetroPie 4.2 and it's User Menu
+* Gives output to the user happened
+1. FAV file deleted
+2. FAV file created
+3. FAV file already there - do nothing! 
