@@ -9,7 +9,7 @@ All you need to tell lfl-create is
 1. Where are your Favourites stored?
 2. What ROM do you want to run?
 3. What is the systems name?
-4. What cmdline is used to run a ROM (optional as last ressort if nothing works!)
+4. What cmdline is used to run a ROM (optional as last ressort if nothing else works!)
 
 So if you tell lfl-create you want to favour Tetris then do it like this.
 
@@ -35,15 +35,11 @@ The the retro idea was born to use description files for a favourite launcher sy
 
 If we open that file every information is introduced here:
 
-_First line gives the full ROM-path_
-`/home/pi/RetroPie/roms/gb/Tetris (JUE) 1.1.gb`
+_First line gives the full ROM-path:_ `/home/pi/RetroPie/roms/gb/Tetris (JUE) 1.1.gb`
 
-_Second line gives system Name_
-`gb`
+_Second line gives system Name:_ `gb`
 
-_Third line gives command call - this is only for deep digging if there is a failure in processing.... Usually line 1 and 2 are enough (empty in our example usually filled with above by automatic process)_
-
-`/opt/retropie/emulators/retroarch/bin/retroarch -L /opt/retropie/libretrocores/lr-gambatte/gambatte_libretro.so --config /opt/retropie/configs/gb/retroarch.cfg "/home/pi/RetroPie/roms/gb/Tetris (JUE) 1.1.gb"`
+_Third line gives command call - this is only for deep digging if there is a failure in processing.... Usually line 1 and 2 are enough (empty in our example usually filled with above by automatic process):_ `/opt/retropie/emulators/retroarch/bin/retroarch -L /opt/retropie/libretrocores/lr-gambatte/gambatte_libretro.so --config /opt/retropie/configs/gb/retroarch.cfg "/home/pi/RetroPie/roms/gb/Tetris (JUE) 1.1.gb"`
 
 The name lfl-create is indeed a bit misleading! It's not just a creator it is also a lauchner and is able to decode the FAV files and run them like the runcommand.sh did.
 
