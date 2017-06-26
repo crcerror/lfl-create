@@ -17,6 +17,14 @@ So if you tell lfl-create you want to play Tetris then do it like this.
 
 After this a FAV file is created into folder My Favourites and it is named `GB - Tetris (JUE) 1.1.FAV`
 
+# How to compile
+lfl-create was written in FreeBasic.
+So grab your copy of FreeBasic for ARMv6 and install...
+to compile use
+`fbc yourbasicprogram.bas` and a binary is created into the same folder
+
+I also offer the precombiled binaries in the download archive.
+
 # What are FAV files?
 FAV is a creation by me. In old old old times as the internet was empty space it was used to be good style to use
 description and info files on BB-systems. You could read them and later (during night) you activated a download to
