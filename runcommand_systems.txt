@@ -1,0 +1,32 @@
+/opt/retropie/supplementary/runcommand/runcommand.sh 0 _SYS_ amstradcpc %ROM%
+/opt/retropie/supplementary/runcommand/runcommand.sh 0 _SYS_ arcade %ROM%
+/opt/retropie/supplementary/runcommand/runcommand.sh 0 _SYS_ atari2600 %ROM%
+/opt/retropie/supplementary/runcommand/runcommand.sh 0 _SYS_ atari7800 %ROM%
+/opt/retropie/supplementary/runcommand/runcommand.sh 0 _SYS_ atarilynx %ROM%
+/opt/retropie/supplementary/runcommand/runcommand.sh 0 _SYS_ fba %ROM%
+/opt/retropie/supplementary/runcommand/runcommand.sh 0 _SYS_ fds %ROM%
+/opt/retropie/supplementary/runcommand/runcommand.sh 0 _SYS_ gamegear %ROM%
+/opt/retropie/supplementary/runcommand/runcommand.sh 0 _SYS_ gb %ROM%
+/opt/retropie/supplementary/runcommand/runcommand.sh 0 _SYS_ gba %ROM%
+/opt/retropie/supplementary/runcommand/runcommand.sh 0 _SYS_ gbc %ROM%
+/opt/retropie/supplementary/runcommand/runcommand.sh 0 _SYS_ mame-libretro %ROM%
+/opt/retropie/supplementary/runcommand/runcommand.sh 0 _SYS_ mame-mame4all %ROM%
+/opt/retropie/supplementary/runcommand/runcommand.sh 0 _SYS_ mastersystem %ROM%
+/opt/retropie/supplementary/runcommand/runcommand.sh 0 _SYS_ megadrive %ROM%
+/opt/retropie/supplementary/runcommand/runcommand.sh 0 _SYS_ msx %ROM%
+/opt/retropie/supplementary/runcommand/runcommand.sh 0 _SYS_ n64 %ROM%
+/opt/retropie/supplementary/runcommand/runcommand.sh 0 _SYS_ neogeo %ROM%
+/opt/retropie/supplementary/runcommand/runcommand.sh 0 _SYS_ nes %ROM%
+/opt/retropie/supplementary/runcommand/runcommand.sh 0 _SYS_ ngp %ROM%
+/opt/retropie/supplementary/runcommand/runcommand.sh 0 _SYS_ ngpc %ROM%
+/opt/retropie/supplementary/runcommand/runcommand.sh 0 _SYS_ pcengine %ROM%
+bash %ROM%
+/opt/retropie/supplementary/runcommand/runcommand.sh 0 _SYS_ psp %ROM%
+/opt/retropie/supplementary/runcommand/runcommand.sh 0 _SYS_ psx %ROM%
+sudo /home/pi/RetroPie-Setup/retropie_packages.sh retropiemenu launch %ROM% &lt;/dev/tty &gt;/dev/tty
+/opt/retropie/supplementary/runcommand/runcommand.sh 0 _SYS_ sega32x %ROM%
+/opt/retropie/supplementary/runcommand/runcommand.sh 0 _SYS_ segacd %ROM%
+/opt/retropie/supplementary/runcommand/runcommand.sh 0 _SYS_ sg-1000 %ROM%
+/opt/retropie/supplementary/runcommand/runcommand.sh 0 _SYS_ snes %ROM%
+/opt/retropie/supplementary/runcommand/runcommand.sh 0 _SYS_ vectrex %ROM%
+bash %ROM%
