@@ -21,7 +21,7 @@ After this a FAV file is created into folder My Favourites and it is named `GB -
 lfl-create was written in FreeBasic.
 So grab your copy of FreeBasic for ARMv6 and install...
 to compile use
-`fbc yourbasicprogram.bas` and a binary is created into the same folder
+`fbc yourbasicprogram.bas` and the binary is created into the same folder
 
 I also offer the precombiled binaries in the download archive.
 
@@ -52,7 +52,7 @@ This will cause to get a "User Menu" in runcommand.sh if we press a button durin
 
 ## Prerequisite #2
 Create a system "My Favourites" in es_system.cfg
-Therefore edit es_systems.cfg and add code block
+use `sudo nano /etc/emulationstation/es_system.cfg` command and edit es_systems.cfg with added code block
   
 ```
   <system>
@@ -67,11 +67,11 @@ Therefore edit es_systems.cfg and add code block
 ``` 
 
 ## Prerequisite #3
-Compile the binary or copy the delivered binary to /opt/retropie/supplementary/runcommand/
-the binary should be named lfl-create, please check if settings managment is right - file must be executable
+Compile the binary or copy the delivered binary to `/opt/retropie/supplementary/runcommand/`
+the binary should be named `lfl-create`, please check if settings managment is right - file must be executable
 
 ## Prerequisite #4
-Copy file runcommand_systems.txt to your favourite folder.
+Copy file `runcommand_systems.txt` to your favourite folder.
 This file is necessary because here are the launching commands for each system deposited.
 
 If your favourite folder is also located in the ROM folder then the FAVs files are available wie SMB in Windows for ex. so you can also use Windows to locate runcommand_systems.txt there.
@@ -82,7 +82,7 @@ But the advantages are clear: There is no difference between lauchching the ROM 
 ## Prerequisite #5
 Last step ... madame e misseu
 The wonderfull User Menu!
-create folder runcommand-menu in /opt/retropie/configs/all
+create folder `runcommand-menu` in `/opt/retropie/configs/all`
 
 Place the User Menu scripts in
 
