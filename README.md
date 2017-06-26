@@ -1,5 +1,4 @@
-# lfl-create
-## Little Favourite Launcher
+# lfl-create - The Little Favourite Launcher for RetroPie
 
 coded by cyperghost
 06/21/17
@@ -17,7 +16,6 @@ So if you tell lfl-create you want to play Tetris then do it like this.
 `./lfl-create "/home/pi/RetroPie/roms/My Favourites" "/home/pi/RetroPie/roms/gb/Tetris (JUE) 1.1.gb" "gb"`
 
 After this a FAV file is created into folder My Favourites and it is named `GB - Tetris (JUE) 1.1.FAV`
-
 
 # What are FAV files?
 FAV is a creation by me. In old old old times as the internet was empty space it was used to be good style to use
@@ -167,6 +165,7 @@ Version 0.75 created 21/06/17
 version 0.85 created 21/17/17
 * Nicer selections via case values
 * Gives output to the user happened
- > FAV file deleted
- > FAV file created
- > FAV file already there - do nothing! 
+  FAV file deleted
+  FAV file created
+  FAV file already there - do nothing! 
+* Rewritten for RetroPie 4.2 and it's User Menu
