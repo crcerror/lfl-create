@@ -33,7 +33,8 @@ and also offered version number, system depedencies and other usefull informatio
 
 The the retro idea was born to use description files for a favourite launcher system.
 
-If we open that file every information is introduced here
+If we open that file every information is introduced here:
+
 _First line gives the full ROM-path_
 `/home/pi/RetroPie/roms/gb/Tetris (JUE) 1.1.gb`
 
@@ -41,6 +42,7 @@ _Second line gives system Name_
 `gb`
 
 _Third line gives command call - this is only for deep digging if there is a failure in processing.... Usually line 1 and 2 are enough (empty in our example usually filled with above by automatic process)_
+
 `/opt/retropie/emulators/retroarch/bin/retroarch -L /opt/retropie/libretrocores/lr-gambatte/gambatte_libretro.so --config /opt/retropie/configs/gb/retroarch.cfg "/home/pi/RetroPie/roms/gb/Tetris (JUE) 1.1.gb"`
 
 The name lfl-create is indeed a bit misleading! It's not just a creator it is also a lauchner and is able to decode the FAV files and run them like the runcommand.sh did.
