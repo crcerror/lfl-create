@@ -11,7 +11,7 @@ All you need to tell lfl-create is
 3. What is the systems name?
 4. What cmdline is used to run a ROM (optional as last ressort if nothing works!)
 
-So if you tell lfl-create you want to play Tetris then do it like this.
+So if you tell lfl-create you want to favour Tetris then do it like this.
 
 `./lfl-create "/home/pi/RetroPie/roms/My Favourites" "/home/pi/RetroPie/roms/gb/Tetris (JUE) 1.1.gb" "gb"`
 
