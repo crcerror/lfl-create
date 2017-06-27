@@ -56,11 +56,11 @@ use `sudo nano /etc/emulationstation/es_system.cfg` command and edit es_systems.
   <system>
     <name>favourites</name>
     <fullname>Favourites</fullname>
-    <path>/home/pi/RetroPie/roms/fav123456789012345</path>
+    <path>/home/pi/RetroPie/roms/My Favourites</path>
     <extension>.fav .FAV</extension>
     <command>/opt/retropie/supplementary/runcommand/lfl-create %ROM%</command>
     <platform>all</platform>
-    <theme>favourites</theme>
+    <theme>auto-favorite</theme>
   </system>
 ``` 
 
