@@ -35,9 +35,11 @@ The the retro idea was born to use description files for a favourite launcher sy
 
 If we open that file every information is introduced here:
 
-__1. input line gives the full ROM-path: */path/to/rom/romname.system*
-2. input line gives system Name: *gb .. snes .. neogeo .. mame .....*
-3. input line gives command call - this is only for deep digging if there is a failure in processing emu system.... Usually line 1 and 2 are enough (and empty in our example) usually it's the command call from runcomand.sh__
+__1. input line gives the full ROM-path: */path/to/rom/romname.system*__
+
+__2. input line gives system Name: *gb .. snes .. neogeo .. mame .....*__
+
+__3. input line gives command call - this is only for deep digging if there is a failure in processing emu system.... Usually line 1 and 2 are enough (and empty in our example) usually it's the command call from runcomand.sh__
 
 ```
 /home/pi/RetroPie/roms/gb/Tetris (JUE) 1.1.gb
