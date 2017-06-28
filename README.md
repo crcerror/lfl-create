@@ -1,6 +1,6 @@
 # lfl-create - The Little Favourite Launcher for RetroPie
 
-coded by cyperghost
+coded by crcerror aka cyperghost
 06/21/17
 
 # What this?
@@ -34,11 +34,12 @@ and also offered version number, system depedencies and other usefull informatio
 The the retro idea was born to use description files for a favourite launcher system.
 
 If we open that file every information is introduced here:
-```
-# First line gives the full ROM-path:
-# Second line gives system Name:
-# Third line gives command call - this is only for deep digging if there is a failure in processing emu system.... Usually line 1 and 2 are enough (and empty in our example) usually it's the command call from runcomand.sh
 
+__First line gives the full ROM-path: */path/to/rom/romname.system*
+Second line gives system Name: *gb .. snes .. neogeo .. mame .....*
+Third line gives command call - this is only for deep digging if there is a failure in processing emu system.... Usually line 1 and 2 are enough (and empty in our example) usually it's the command call from runcomand.sh__
+
+```
 /home/pi/RetroPie/roms/gb/Tetris (JUE) 1.1.gb
 gb
 /opt/retropie/emulators/retroarch/bin/retroarch -L /opt/retropie/libretrocores/lr-gambatte/gambatte_libretro.so --config /opt/retropie/configs/gb/retroarch.cfg "/home/pi/RetroPie/roms/gb/Tetris (JUE) 1.1.gb"
