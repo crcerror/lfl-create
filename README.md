@@ -34,13 +34,15 @@ and also offered version number, system depedencies and other usefull informatio
 The the retro idea was born to use description files for a favourite launcher system.
 
 If we open that file every information is introduced here:
+```
+# First line gives the full ROM-path:
+# Second line gives system Name:
+# Third line gives command call - this is only for deep digging if there is a failure in processing emu system.... Usually line 1 and 2 are enough (and empty in our example) usually it's the command call from runcomand.sh
 
-_First line gives the full ROM-path:_ `/home/pi/RetroPie/roms/gb/Tetris (JUE) 1.1.gb`
-
-_Second line gives system Name:_ `gb`
-
-_Third line gives command call - this is only for deep digging if there is a failure in processing.... Usually line 1 and 2 are enough (empty in our example usually filled with above by automatic process):_ `/opt/retropie/emulators/retroarch/bin/retroarch -L /opt/retropie/libretrocores/lr-gambatte/gambatte_libretro.so --config /opt/retropie/configs/gb/retroarch.cfg "/home/pi/RetroPie/roms/gb/Tetris (JUE) 1.1.gb"`
-
+/home/pi/RetroPie/roms/gb/Tetris (JUE) 1.1.gb
+gb
+/opt/retropie/emulators/retroarch/bin/retroarch -L /opt/retropie/libretrocores/lr-gambatte/gambatte_libretro.so --config /opt/retropie/configs/gb/retroarch.cfg "/home/pi/RetroPie/roms/gb/Tetris (JUE) 1.1.gb"
+```
 The name lfl-create is indeed a bit misleading! It's not just a creator it is also a lauchner and is able to decode the FAV files and run them like the runcommand.sh did.
 
 ## Prerequisite #1
@@ -142,7 +144,7 @@ Please respect the work of others!
 _Intital version 0.1 created on 06/08/17_
 * Just launching ability and a test what can be done in simple coding
 * Just released for laughing....
-* released for testing purposed into unix system! 
+* released for testing purposed to dive into unix system! 
 * The name lfl-create was used in future version
 
 _version 0.15 created 06/12/17_
@@ -150,7 +152,7 @@ _version 0.15 created 06/12/17_
 * Created a FAV file with only $COMMAND inside
 * launch was initiated just via BASH call from ES
 * Worked also but is dirty and gives a lot of errors
-* First version for public
+* First version for public (only on RetroPie user forum, it's really an outdated version)
 
 _version 0.55 created 06/13/17_
 * Heavy rework because of using runcommand_systems.txt to initiate 1:1 behaviour to usual launch
@@ -162,7 +164,7 @@ _version 0.55 created 06/13/17_
 _Version 0.65 created 06/15/17_
 * FAVs can now be deleted by double adding ROM to favourite, First add creates FAV file, second deletes, third creates....
 * FAVs deletion will be indicated by small text message!
-* Never released
+* Never released on RetroPie User forum, just released here as GIT
 
 Version 0.75 created 21/06/17
 * Added -DEL Parameter to delete FAVs (if they exists), instead of $4 or $Command use "-del"
