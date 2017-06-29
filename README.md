@@ -65,7 +65,7 @@ use `sudo nano /etc/emulationstation/es_system.cfg` command and edit es_systems.
     <extension>.fav .FAV</extension>
     <command>/opt/retropie/supplementary/runcommand/lfl-create %ROM%</command>
     <platform>all</platform>
-    <theme>auto-favorite</theme>
+    <theme>lfl-favorite</theme>
   </system>
 ``` 
 
